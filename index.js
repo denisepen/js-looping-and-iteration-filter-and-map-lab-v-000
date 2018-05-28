@@ -1,5 +1,5 @@
 // Code your solution here:
-driver = [
+const driver = [
   {name: "bob", revenue: 12.2},
   {name: "jan", revenue: 205}
 ]
