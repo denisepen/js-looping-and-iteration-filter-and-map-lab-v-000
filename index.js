@@ -24,5 +24,5 @@ return exact = driver.filter(function(drive){
 
 function exactMatchToList(driver, newObj){
   driverObj = exactMatch(driver, newObj)
-  driverObj.map(function(drive) {return drive.name})
+return newDriver = driverObj.map(function(drive) {return drive.name})
 }
