@@ -18,5 +18,6 @@ function driverNamesWithRevenueOver(driver, revenue){
 function exactMatch(driver, newObj){
    newerObj = Object.assign({}, newObj)
 return exact = driver.filter(function(drive){
-  return drive.revenue == newerObj.revenue})
+  return (drive.revenue == newerObj.revenue) || 
+(drive.name == newerObj.name)  })
 }
